@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Máy Tính Tài Nguyên</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <h1>Máy Tính Tài Nguyên</h1>
+    <p>Đây là công cụ giúp bạn tính toán mức tiêu thụ tài nguyên theo lối sống.</p>
+
+    <form id="calculatorForm">
+        <label for="livingArea">Diện tích nhà bạn đang sống (m²):</label><br>
+        <input type="number" id="livingArea" name="livingArea" /><br><br>
+
+        <label for="carKm">Số km bạn đi ô tô mỗi năm:</label><br>
+        <input type="number" id="carKm" name="carKm" /><br><br>
+
+        <button type="button" onclick="calculate()">Tính toán</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
